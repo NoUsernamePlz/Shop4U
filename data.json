@@ -2353,13 +2353,13 @@
       "id": 3,
       "addresses": [
         {
-          "name": "dev",
+          "name": "Kate",
           "email": "coco@gmail.com",
+          "city": "Maybeline",
+          "state": "Yawataksiv",
+          "pinCode": "23434555",
           "phone": "1243254345",
-          "street": "ererere",
-          "city": "llllllll",
-          "state": "rfrfrfrfrf",
-          "pinCode": "23434555"
+          "street": "catwalk road sector-3"
         }
       ]
     }
@@ -2496,6 +2496,134 @@
       },
       "status": "pending",
       "id": 1
+    },
+    {
+      "items": [
+        {
+          "title": "Infinix INBOOK",
+          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+          "price": 1099,
+          "discountPercentage": 11.83,
+          "rating": 4.54,
+          "stock": 96,
+          "brand": "Infinix",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/9/1.jpg",
+            "https://i.dummyjson.com/data/products/9/2.png",
+            "https://i.dummyjson.com/data/products/9/3.png",
+            "https://i.dummyjson.com/data/products/9/4.jpg",
+            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+          ],
+          "quantity": 2,
+          "user": 3,
+          "id": 7
+        }
+      ],
+      "totalAmount": 2198,
+      "totalItems": 2,
+      "user": {
+        "email": "coco@gmail.com",
+        "password": "Coco@123",
+        "id": 3,
+        "addresses": [
+          {
+            "name": "dev",
+            "email": "coco@gmail.com",
+            "phone": "1243254345",
+            "street": "ererere",
+            "city": "llllllll",
+            "state": "rfrfrfrfrf",
+            "pinCode": "23434555"
+          },
+          {
+            "name": "jkjkjlkjk",
+            "email": "kok123@gmail.com",
+            "phone": "08989898999",
+            "street": "hinoo",
+            "city": "lala",
+            "state": "alien",
+            "pinCode": "834002"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "jkjkjlkjk",
+        "email": "kok123@gmail.com",
+        "phone": "08989898999",
+        "street": "hinoo",
+        "city": "lala",
+        "state": "alien",
+        "pinCode": "834002"
+      },
+      "status": "pending",
+      "id": 2
+    },
+    {
+      "items": [
+        {
+          "title": "Microsoft Surface Laptop 4",
+          "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+          "price": 1499,
+          "discountPercentage": 10.23,
+          "rating": 4.43,
+          "stock": 68,
+          "brand": "Microsoft Surface",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/8/1.jpg",
+            "https://i.dummyjson.com/data/products/8/2.jpg",
+            "https://i.dummyjson.com/data/products/8/3.jpg",
+            "https://i.dummyjson.com/data/products/8/4.jpg",
+            "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+          ],
+          "quantity": 4,
+          "user": 3,
+          "id": 7
+        }
+      ],
+      "totalAmount": 5996,
+      "totalItems": 4,
+      "user": {
+        "email": "coco@gmail.com",
+        "password": "Coco@123",
+        "id": 3,
+        "addresses": [
+          {
+            "name": "dev",
+            "email": "coco@gmail.com",
+            "phone": "1243254345",
+            "street": "ererere",
+            "city": "llllllll",
+            "state": "rfrfrfrfrf",
+            "pinCode": "23434555"
+          },
+          {
+            "name": "jkjkjlkjk",
+            "email": "kok123@gmail.com",
+            "phone": "08989898999",
+            "street": "hinoo",
+            "city": "lala",
+            "state": "alien",
+            "pinCode": "834002"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "dev",
+        "email": "coco@gmail.com",
+        "phone": "1243254345",
+        "street": "ererere",
+        "city": "llllllll",
+        "state": "rfrfrfrfrf",
+        "pinCode": "23434555"
+      },
+      "status": "pending",
+      "id": 3
     }
   ]
 }
