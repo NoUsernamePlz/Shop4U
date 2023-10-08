@@ -68,6 +68,7 @@ const ProductDetails = () => {
   return (
     <div className="bg-white">
       
+      
       {product && (
         <div className="pt-6">
         <nav aria-label="Breadcrumb">
