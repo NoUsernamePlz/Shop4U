@@ -19,10 +19,15 @@ import UserProfilePage from './pages/UserProfilePage';
 import { fetchLoggedInUserAsync } from './features/user/userSlice';
 import Logout from './features/auth/component/Logout';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
+import ProtectedAdmin from './features/auth/component/ProtectedAdmin';
+import AdminHome from './pages/AdminHome';
+import AdminProductDetailPage from './pages/AdminProductDetailPage';
+import AdminProductFormPage from './pages/AdminProductFormPage';
+import AdminOrdersPage from './pages/AdminOrdersPage';
 
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route,Link } from "react-router-dom";
 
 import CartPage from './pages/CartPage';
 import Checkout from './pages/Checkout';
@@ -42,7 +47,10 @@ function App() {
   return (
     <div className="App bg-slate-300">
       <Routes>
-        <Route path="/" element={ <Home/> } />
+        <Route path="/" element={ <Protected><Home/></Protected> } />
+       
+
+        <Route path="/admin" element={ <ProtectedAdmin><AdminHome/></ProtectedAdmin> } />
         <Route path="/login" element={ <LoginPage/> } />
         <Route path="/signup" element={ <SignupPage/> } />
         <Route path="/cart" element={
@@ -52,7 +60,17 @@ function App() {
         <Checkout/> 
         </Protected>
         } />
-        <Route path="/product-details/:id" element={ <Protected><ProductdetailsPage/></Protected> } />
+        
+  
+      
+
+        <Route path='/admin/product-detail/:id' element={<ProtectedAdmin>
+        <AdminProductDetailPage/>
+      </ProtectedAdmin> } />
+      <Route path='/product-details/:id'  element={ <Protected> <ProductdetailsPage/></Protected> } />
+      <Route path='/admin/product-form'  element={ <Protected> <AdminProductFormPage/></Protected> } />
+        <Route path='/admin/product-form/edit/:id' element={ <Protected><AdminProductFormPage/></Protected> } />
+        <Route path='/admin/orders' element={ <Protected><AdminOrdersPage/></Protected> } />
         <Route path="/order-success/:id" element={ <OrderSuccessPage/> } />
         <Route path="/orders" element={<Protected> <UserOrdersPage/></Protected> } />
         <Route path="/profile" element={<Protected> <UserProfilePage/></Protected> } />

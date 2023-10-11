@@ -54,7 +54,7 @@ export function fetchItemsByUserId(userId) {
       for (let item of items) {
         await deleteItemFromCart(item.id);
       }
-      resolve({status:'success'})
+      resolve({status:'success'});
     });
   }
   
