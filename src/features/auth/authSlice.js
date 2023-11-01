@@ -1,14 +1,12 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { checkUser, createUser,signOut } from './authApi';
+import { checkUser, createUser, signOut } from './authApi';
 import { updateUser } from '../user/userApi';
 
 const initialState = {
   loggedInUser: null,
   status: 'idle',
-  error:null,
-  
+  error: null,
 };
-
 
 export const createUserAsync = createAsyncThunk(
   'user/createUser',
@@ -49,20 +47,16 @@ export const signOutAsync = createAsyncThunk(
 export const authSlice = createSlice({
   name: 'user',
   initialState,
-  // The `reducers` field lets us define reducers and generate associated actions
   reducers: {
-   
-   
   },
-  
   extraReducers: (builder) => {
     builder
-    .addCase(createUserAsync.pending, (state) => {
-      state.status = 'loading';
-    })
-    .addCase(createUserAsync.fulfilled, (state, action) => {
-      state.status = 'idle';
-      state.loggedInUser = action.payload;
+      .addCase(createUserAsync.pending, (state) => {
+        state.status = 'loading';
+      })
+      .addCase(createUserAsync.fulfilled, (state, action) => {
+        state.status = 'idle';
+        state.loggedInUser = action.payload;
       })
       .addCase(checkUserAsync.pending, (state) => {
         state.status = 'loading';
@@ -92,14 +86,9 @@ export const authSlice = createSlice({
   },
 });
 
-export const selectLoggedInUser = (state)=>state.auth.loggedInUser;
-export const selectError = (state)=>state.auth.error;
+export const selectLoggedInUser = (state) => state.auth.loggedInUser;
+export const selectError = (state) => state.auth.error;
 
-
-
-
-
-
-
+// export const { } = authSlice.actions;
 
 export default authSlice.reducer;

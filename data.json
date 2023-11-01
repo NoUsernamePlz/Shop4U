@@ -2367,19 +2367,36 @@
           "city": "Maybeline",
           "state": "Yawataksiv",
           "pinCode": "23434555",
-          "phone": "1243254345",
+          "phone": "9999999999999",
           "street": "catwalk road sector-3"
         },
         {
-          "name": "lolo",
-          "email": "lala@gmail.com",
-          "phone": "12345544566",
-          "street": "lala road , rara",
-          "city": "lili",
-          "state": "fggfhguy",
+          "name": "jiky",
+          "email": "jiky@gmail.com",
+          "phone": "9090909099999",
+          "street": "gangnum",
+          "city": "seol",
+          "state": "seol",
           "pinCode": "12345"
         }
       ]
+    },
+    {
+      "email": "Jake@gmail.com",
+      "password": "Jake@123",
+      "addresses": [
+        {
+          "name": "jake tenison",
+          "email": "Jake@gmail.com",
+          "phone": "1234567878",
+          "street": "farmhouse road",
+          "city": "london",
+          "state": "london",
+          "pinCode": "12345"
+        }
+      ],
+      "role": "user",
+      "id": 5
     }
   ],
   "cart": [
@@ -2459,6 +2476,49 @@
       ],
       "quantity": 1,
       "user": 2
+    },
+    {
+      "title": "Samsung Galaxy Book",
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "price": 1499,
+      "discountPercentage": 4.15,
+      "rating": 4.25,
+      "stock": 50,
+      "brand": "Samsung",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/7/1.jpg",
+        "https://i.dummyjson.com/data/products/7/2.jpg",
+        "https://i.dummyjson.com/data/products/7/3.jpg",
+        "https://i.dummyjson.com/data/products/7/thumbnail.jpg"
+      ],
+      "productId": 7,
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "title": "Sneakers Joggers Shoes",
+      "description": "Gender: Men , Colors: Same as DisplayedCondition: 100% Brand New",
+      "price": 40,
+      "discountPercentage": 12.57,
+      "rating": 4.38,
+      "stock": 6,
+      "brand": "Sneakers",
+      "category": "mens-shoes",
+      "thumbnail": "https://i.dummyjson.com/data/products/56/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/56/1.jpg",
+        "https://i.dummyjson.com/data/products/56/2.jpg",
+        "https://i.dummyjson.com/data/products/56/3.jpg",
+        "https://i.dummyjson.com/data/products/56/4.jpg",
+        "https://i.dummyjson.com/data/products/56/5.jpg",
+        "https://i.dummyjson.com/data/products/56/thumbnail.jpg"
+      ],
+      "productId": 56,
+      "quantity": 1,
+      "user": 4,
+      "id": 9
     }
   ],
   "orders": [
@@ -2512,7 +2572,7 @@
         "state": "rfrfrfrfrf",
         "pinCode": "23434555"
       },
-      "status": "delivered",
+      "status": "cancelled",
       "id": 1
     },
     {
@@ -2882,6 +2942,239 @@
       "selectedAddress": null,
       "status": "pending",
       "id": 8
+    },
+    {
+      "items": [
+        {
+          "title": "Infinix INBOOK",
+          "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+          "price": 1099,
+          "discountPercentage": 11.83,
+          "rating": 4.54,
+          "stock": 96,
+          "brand": "Infinix",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/9/1.jpg",
+            "https://i.dummyjson.com/data/products/9/2.png",
+            "https://i.dummyjson.com/data/products/9/3.png",
+            "https://i.dummyjson.com/data/products/9/4.jpg",
+            "https://i.dummyjson.com/data/products/9/thumbnail.jpg"
+          ],
+          "productId": 9,
+          "quantity": 1,
+          "user": 3,
+          "id": 7
+        }
+      ],
+      "totalAmount": 969,
+      "totalItems": 1,
+      "user": {
+        "email": "coco@gmail.com",
+        "password": "Coco@123",
+        "id": 3,
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Kate",
+            "email": "coco@gmail.com",
+            "city": "Maybeline",
+            "state": "Yawataksiv",
+            "pinCode": "23434555",
+            "phone": "9999999999999",
+            "street": "catwalk road sector-3"
+          },
+          {
+            "name": "jiky",
+            "email": "jiky@gmail.com",
+            "phone": "9090909099999",
+            "street": "gangnum",
+            "city": "seol",
+            "state": "seol",
+            "pinCode": "12345"
+          }
+        ]
+      },
+      "paymentMethod": "card",
+      "selectedAddress": {
+        "name": "jiky",
+        "email": "jiky@gmail.com",
+        "phone": "9090909099999",
+        "street": "gangnum",
+        "city": "seol",
+        "state": "seol",
+        "pinCode": "12345"
+      },
+      "status": "pending",
+      "id": 9
+    },
+    {
+      "items": [
+        {
+          "title": "iPhone X",
+          "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+          "price": 899,
+          "discountPercentage": 17.94,
+          "rating": 4.44,
+          "stock": 34,
+          "brand": "Apple",
+          "category": "smartphones",
+          "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/2/1.jpg",
+            "https://i.dummyjson.com/data/products/2/2.jpg",
+            "https://i.dummyjson.com/data/products/2/3.jpg",
+            "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
+          ],
+          "productId": 2,
+          "quantity": 1,
+          "user": 3,
+          "id": 9
+        }
+      ],
+      "totalAmount": 738,
+      "totalItems": 1,
+      "user": {
+        "email": "coco@gmail.com",
+        "password": "Coco@123",
+        "id": 3,
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Kate",
+            "email": "coco@gmail.com",
+            "city": "Maybeline",
+            "state": "Yawataksiv",
+            "pinCode": "23434555",
+            "phone": "9999999999999",
+            "street": "catwalk road sector-3"
+          },
+          {
+            "name": "jiky",
+            "email": "jiky@gmail.com",
+            "phone": "9090909099999",
+            "street": "gangnum",
+            "city": "seol",
+            "state": "seol",
+            "pinCode": "12345"
+          }
+        ]
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Kate",
+        "email": "coco@gmail.com",
+        "city": "Maybeline",
+        "state": "Yawataksiv",
+        "pinCode": "23434555",
+        "phone": "9999999999999",
+        "street": "catwalk road sector-3"
+      },
+      "status": "pending",
+      "id": 10
+    },
+    {
+      "items": [
+        {
+          "title": "women winter clothes",
+          "description": "women winter clothes thick fleece hoodie top with sweat pantjogger women sweatsuit set joggers pants two piece pants set",
+          "price": 57,
+          "discountPercentage": 13.39,
+          "rating": 4.91,
+          "stock": 84,
+          "brand": "Top Sweater",
+          "category": "tops",
+          "thumbnail": "https://i.dummyjson.com/data/products/40/thumbnail.jpg",
+          "images": [
+            "https://i.dummyjson.com/data/products/40/1.jpg",
+            "https://i.dummyjson.com/data/products/40/2.jpg"
+          ],
+          "productId": 40,
+          "quantity": 1,
+          "user": 5,
+          "id": 9
+        }
+      ],
+      "totalAmount": 49,
+      "totalItems": 1,
+      "user": {
+        "email": "Jake@gmail.com",
+        "password": "Jake@123",
+        "addresses": [
+          {
+            "name": "jake tenison",
+            "email": "Jake@gmail.com",
+            "phone": "1234567878",
+            "street": "farmhouse road",
+            "city": "london",
+            "state": "london",
+            "pinCode": "12345"
+          }
+        ],
+        "role": "user",
+        "id": 5
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": null,
+      "status": "pending",
+      "id": 11
+    },
+    {
+      "items": [
+        {
+          "title": "MacBook Pro",
+          "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+          "price": 1749,
+          "discountPercentage": 11.02,
+          "rating": 4.57,
+          "stock": 83,
+          "brand": "Apple",
+          "category": "laptops",
+          "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+          "images": [
+            "https://i.dummyjson.com/data/products/6/1.png",
+            "https://i.dummyjson.com/data/products/6/2.jpg",
+            "https://i.dummyjson.com/data/products/6/3.png",
+            "https://i.dummyjson.com/data/products/6/thumbnail.png"
+          ],
+          "productId": 6,
+          "quantity": 1,
+          "user": 5,
+          "id": 9
+        }
+      ],
+      "totalAmount": 1556,
+      "totalItems": 1,
+      "user": {
+        "email": "Jake@gmail.com",
+        "password": "Jake@123",
+        "addresses": [
+          {
+            "name": "jake tenison",
+            "email": "Jake@gmail.com",
+            "phone": "1234567878",
+            "street": "farmhouse road",
+            "city": "london",
+            "state": "london",
+            "pinCode": "12345"
+          }
+        ],
+        "role": "user",
+        "id": 5
+      },
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "jake tenison",
+        "email": "Jake@gmail.com",
+        "phone": "1234567878",
+        "street": "farmhouse road",
+        "city": "london",
+        "state": "london",
+        "pinCode": "12345"
+      },
+      "status": "pending",
+      "id": 12
     }
   ]
 }

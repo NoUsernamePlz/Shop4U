@@ -14,7 +14,7 @@ export default function UserOrders() {
 
   return (
     <div>
-      {orders.map((order) => (
+      {orders.length>0 && orders.map((order) => (
         <div>
           <div>
             <div className="mx-auto mt-12 bg-white max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -84,22 +84,22 @@ export default function UserOrders() {
                   <div className="flex gap-x-4">
                     <div className="min-w-0 flex-auto">
                       <p className="text-sm font-semibold leading-6 text-gray-900">
-                        {order.selectedAddress.name}
+                        {order.selectedAddress && order.selectedAddress.name}
                       </p>
                       <p className="mt-1 truncate text-xs leading-5 text-gray-500">
-                        {order.selectedAddress.street}
+                        {order.selectedAddress && order.selectedAddress.street}
                       </p>
                       <p className="mt-1 truncate text-xs leading-5 text-gray-500">
-                        {order.selectedAddress.pinCode}
+                        {order.selectedAddress && order.selectedAddress.pinCode}
                       </p>
                     </div>
                   </div>
                   <div className="hidden sm:flex sm:flex-col sm:items-end">
                     <p className="text-sm leading-6 text-gray-900">
-                      Phone: {order.selectedAddress.phone}
+                      Phone: {order.selectedAddress && order.selectedAddress.phone}
                     </p>
                     <p className="text-sm leading-6 text-gray-500">
-                      {order.selectedAddress.city}
+                      {order.selectedAddress && order.selectedAddress.city}
                     </p>
                   </div>
                 </div>
